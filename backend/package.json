@@ -1,0 +1,7 @@
+{
+  "name": "quiet-pages",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small, self-hosted writing and publishing site.",
+  "scripts": { "start": "node server.js" }
+}

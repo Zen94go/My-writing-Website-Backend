@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: fahad-writing-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/site
+    envVars:
+      - key: ADMIN_SETUP_KEY
+        sync: false
+      - key: FRONTEND_ORIGIN
+        sync: false
